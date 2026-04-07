@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'windows-latest'   # use this if self-hosted not ready
+  name: Default
 
 variables:
   buildConfiguration: 'Release'
